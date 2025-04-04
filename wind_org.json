@@ -1,0 +1,15 @@
+{
+  "@id": "dtmi:sakthi:WindOrg;1",
+  "@type": "Interface",
+  "displayName": "Wind Organisation",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "contains",
+      "displayName": "contains",
+      "description": "Wind farms belonging to this Org",
+      "target": "dtmi:sakthi:WindFarm;1"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

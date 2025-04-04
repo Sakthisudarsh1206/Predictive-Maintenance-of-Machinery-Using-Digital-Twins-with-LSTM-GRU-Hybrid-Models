@@ -1,0 +1,53 @@
+{
+  "@id": "dtmi:com:example:WindTurbine;1",
+  "@type": "Interface",
+  "displayName": "Wind Turbine",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "WindSpeed",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "Rotation",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "PowerOutput",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "FrontBearingTemp",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "AmbientTemp",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "MainStatus",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "FaultMsg",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "Service",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "Fault",
+      "schema": "integer"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
