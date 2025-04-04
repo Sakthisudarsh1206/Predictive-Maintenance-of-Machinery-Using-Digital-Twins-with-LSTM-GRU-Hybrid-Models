@@ -133,3 +133,25 @@ The project architecture is divided into three layers:
     ],
     "@context": "dtmi:dtdl:context;2"
   }
+# Data Simulation and Injection
+
+## Python Timer Script
+- Reads CSV rows and uses `time.sleep()` to simulate real-time streaming.
+
+## REST API Integration
+- Maps CSV telemetry data to digital twin properties, ensuring real-time updates.
+
+# Visualization
+
+## Azure Digital Twins Explorer
+- Visualizes live telemetry data.
+
+## Custom Dashboards
+- Provide real-time monitoring and actionable insights into turbine performance.
+
+# Setup & Installation
+
+## Clone the Repository
+```bash
+git clone https://github.com/Sakthisudarsh1206/Predictive-Maintenance-of-Machinery-Using-Digital-Twins-with-LSTM-GRU-Hybrid-Models.git
+cd Predictive-Maintenance-of-Machinery-Using-Digital-Twins-with-LSTM-GRU-Hybrid-Models
