@@ -1,0 +1,2 @@
+# Predictive-Maintenance-of-Machinery-Using-Digital-Twins-with-LSTM-GRU-Hybrid-Models
+Advanced predictive maintenance for wind turbines using digital twin technology and a hybrid deep learning model. It integrates SCADA and historical fault data to create a digital twin. It combines transformer encoders, with LSTM, and GRU layers, forecasts faults while Microsoft Azure Digital Twins enable simulation, visualization, and monitoring.
